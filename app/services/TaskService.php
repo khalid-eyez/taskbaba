@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Services;
-
 use App\Models\Task;
 use Auth;
 use Illuminate\Validation\Rule;
