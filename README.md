@@ -66,7 +66,7 @@ See the full [LGPL License](https://www.gnu.org/licenses/lgpl-3.0.html) for more
 ## 👨‍💻 Developer
 
 **Khalid hassan**  
-Software Developer | PHP (Yii), Laravel, React, Java (Spring Boot)  
+Software Developer | PHP (Yii), Laravel, React, JQuery, Java (Spring Boot)  
 [LinkedIn](linkedin.com/in/khalidi-hassan-64a4a1189) | [Portfolio](https://khalid-eyez.github.io/)
 August 2025
 
