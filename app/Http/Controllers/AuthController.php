@@ -34,7 +34,7 @@ class AuthController extends Controller
     public function loginform()
     {
         if (auth()->check()) {
-            return redirect()->route('tasks.index');
+            return redirect()->route('tasks');
         }
 
         return view('login');
