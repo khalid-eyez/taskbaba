@@ -7,7 +7,7 @@ A Laravel-based Task Management application.
 ## 📦 Installation and Running
 
 ### ✅ Prerequisites
-- PHP (version supported by Laravel)  
+- PHP (8.4)  
 - Composer  
 - MySQL or any supported database  
 
