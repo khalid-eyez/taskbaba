@@ -33,6 +33,12 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
+         $request->validate([
+            'title' => ['required', 'string', 'max:100', 'unique:tasks,title'],
+            'description' => ['required', 'string'],
+        ], [
+            'title.unique' => 'Task already added before',
+        ]);
         try {
             TaskService::store($request);
 

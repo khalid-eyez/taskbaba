@@ -10,12 +10,6 @@ class TaskService
 {
     public static function store($request)
     {
-        $request->validate([
-            'title' => ['required', 'string', 'max:100', 'unique:tasks,title'],
-            'description' => ['required', 'string'],
-        ], [
-            'title.unique' => 'Task already added before',
-        ]);
         Task::create([
             'title' => $request->title,
             'description' => $request->description,
