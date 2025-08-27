@@ -1,0 +1,209 @@
+{
+  "resources/chosen-sprite.png": {
+    "file": "assets/chosen-sprite-BTe4w5m6.png",
+    "src": "resources/chosen-sprite.png"
+  },
+  "resources/css/tm.css": {
+    "file": "assets/tm-DAM74rl1.css",
+    "src": "resources/css/tm.css",
+    "isEntry": true,
+    "names": [
+      "tm.css"
+    ]
+  },
+  "resources/fonts/fontawesome-webfont.eot": {
+    "file": "assets/fontawesome-webfont-C_WmX-EB.eot",
+    "src": "resources/fonts/fontawesome-webfont.eot"
+  },
+  "resources/fonts/fontawesome-webfont.svg": {
+    "file": "assets/fontawesome-webfont-BsbQkMhg.svg",
+    "src": "resources/fonts/fontawesome-webfont.svg"
+  },
+  "resources/fonts/fontawesome-webfont.ttf": {
+    "file": "assets/fontawesome-webfont-uaWrvguS.ttf",
+    "src": "resources/fonts/fontawesome-webfont.ttf"
+  },
+  "resources/fonts/fontawesome-webfont.woff": {
+    "file": "assets/fontawesome-webfont-BmEbyikG.woff",
+    "src": "resources/fonts/fontawesome-webfont.woff"
+  },
+  "resources/fonts/fontawesome-webfont.woff2": {
+    "file": "assets/fontawesome-webfont-F4ciScQw.woff2",
+    "src": "resources/fonts/fontawesome-webfont.woff2"
+  },
+  "resources/fonts/glyphicons-halflings-regular.eot": {
+    "file": "assets/glyphicons-halflings-regular-BUJKDMgK.eot",
+    "src": "resources/fonts/glyphicons-halflings-regular.eot"
+  },
+  "resources/fonts/glyphicons-halflings-regular.svg": {
+    "file": "assets/glyphicons-halflings-regular-CSehLiBc.svg",
+    "src": "resources/fonts/glyphicons-halflings-regular.svg"
+  },
+  "resources/fonts/glyphicons-halflings-regular.ttf": {
+    "file": "assets/glyphicons-halflings-regular-DrwTMapi.ttf",
+    "src": "resources/fonts/glyphicons-halflings-regular.ttf"
+  },
+  "resources/fonts/glyphicons-halflings-regular.woff": {
+    "file": "assets/glyphicons-halflings-regular-BKjkU69z.woff",
+    "src": "resources/fonts/glyphicons-halflings-regular.woff"
+  },
+  "resources/fonts/glyphicons-halflings-regular.woff2": {
+    "file": "assets/glyphicons-halflings-regular-DzqM6ju8.woff2",
+    "src": "resources/fonts/glyphicons-halflings-regular.woff2"
+  },
+  "resources/fonts/notika-icon.eot": {
+    "file": "assets/notika-icon-CaUs5PuI.eot",
+    "src": "resources/fonts/notika-icon.eot"
+  },
+  "resources/fonts/notika-icon.svg": {
+    "file": "assets/notika-icon-ymP6cDZS.svg",
+    "src": "resources/fonts/notika-icon.svg"
+  },
+  "resources/fonts/notika-icon.ttf": {
+    "file": "assets/notika-icon-Cw5dw7M7.ttf",
+    "src": "resources/fonts/notika-icon.ttf"
+  },
+  "resources/fonts/notika-icon.woff": {
+    "file": "assets/notika-icon-BDmoI-Ht.woff",
+    "src": "resources/fonts/notika-icon.woff"
+  },
+  "resources/images/select.png": {
+    "file": "assets/select-Ov0seIks.png",
+    "src": "resources/images/select.png"
+  },
+  "resources/img/chosen-sprite.png": {
+    "file": "assets/chosen-sprite-BTe4w5m6.png",
+    "src": "resources/chosen-sprite.png"
+  },
+  "resources/img/green1.png": {
+    "file": "assets/green1-SG7d6xhi.png",
+    "src": "resources/img/green1.png"
+  },
+  "resources/img/logo/logo.png": {
+    "file": "assets/logo-CJBxqNOP.png",
+    "src": "resources/img/logo/logo.png"
+  },
+  "resources/js/bootstrap.min.js": {
+    "file": "assets/bootstrap.min-DToftxaU.js",
+    "name": "bootstrap.min",
+    "src": "resources/js/bootstrap.min.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/chat/jquery.chat.js": {
+    "file": "assets/jquery.chat-Ck8ZoFxX.js",
+    "name": "jquery.chat",
+    "src": "resources/js/chat/jquery.chat.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/counterup/counterup-active.js": {
+    "file": "assets/counterup-active-_NsieiBv.js",
+    "name": "counterup-active",
+    "src": "resources/js/counterup/counterup-active.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/counterup/jquery.counterup.min.js": {
+    "file": "assets/jquery.counterup.min-CK3y8Qxx.js",
+    "name": "jquery.counterup.min",
+    "src": "resources/js/counterup/jquery.counterup.min.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/jquery-price-slider.js": {
+    "file": "assets/jquery-price-slider-CIL5O0gR.js",
+    "name": "jquery-price-slider",
+    "src": "resources/js/jquery-price-slider.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/knob/jquery.appear.js": {
+    "file": "assets/jquery.appear-C6SL-b8K.js",
+    "name": "jquery.appear",
+    "src": "resources/js/knob/jquery.appear.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/knob/jquery.knob.js": {
+    "file": "assets/jquery.knob-D6OZ4HN9.js",
+    "name": "jquery.knob",
+    "src": "resources/js/knob/jquery.knob.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/knob/knob-active.js": {
+    "file": "assets/knob-active-CBhx2viT.js",
+    "name": "knob-active",
+    "src": "resources/js/knob/knob-active.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/login/login-action.js": {
+    "file": "assets/login-action-wbFc6grk.js",
+    "name": "login-action",
+    "src": "resources/js/login/login-action.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/main.js": {
+    "file": "assets/main-Ca5SkG2k.js",
+    "name": "main",
+    "src": "resources/js/main.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/meanmenu/jquery.meanmenu.js": {
+    "file": "assets/jquery.meanmenu-DQSZHD9s.js",
+    "name": "jquery.meanmenu",
+    "src": "resources/js/meanmenu/jquery.meanmenu.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/owl.carousel.min.js": {
+    "file": "assets/owl.carousel.min-DOEofKmf.js",
+    "name": "owl.carousel.min",
+    "src": "resources/js/owl.carousel.min.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/sparkline/jquery.sparkline.min.js": {
+    "file": "assets/jquery.sparkline.min-DafU8q0F.js",
+    "name": "jquery.sparkline.min",
+    "src": "resources/js/sparkline/jquery.sparkline.min.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/sparkline/sparkline-active.js": {
+    "file": "assets/sparkline-active-iLGhRRXu.js",
+    "name": "sparkline-active",
+    "src": "resources/js/sparkline/sparkline-active.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/tm.js": {
+    "file": "assets/tm-Br5MGZGt.js",
+    "name": "tm",
+    "src": "resources/js/tm.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/bootstrap.min.js",
+      "resources/js/jquery-price-slider.js",
+      "resources/js/owl.carousel.min.js",
+      "resources/js/meanmenu/jquery.meanmenu.js",
+      "resources/js/counterup/jquery.counterup.min.js",
+      "resources/js/counterup/counterup-active.js",
+      "resources/js/sparkline/jquery.sparkline.min.js",
+      "resources/js/sparkline/sparkline-active.js",
+      "resources/js/knob/jquery.knob.js",
+      "resources/js/knob/jquery.appear.js",
+      "resources/js/knob/knob-active.js",
+      "resources/js/chat/jquery.chat.js",
+      "resources/js/todo/jquery.todo.js",
+      "resources/js/login/login-action.js",
+      "resources/js/main.js"
+    ],
+    "css": [
+      "assets/tm-DPlFYqzU.css"
+    ],
+    "assets": [
+      "assets/logo-CJBxqNOP.png"
+    ]
+  },
+  "resources/js/todo/jquery.todo.js": {
+    "file": "assets/jquery.todo-DbXPhD2W.js",
+    "name": "jquery.todo",
+    "src": "resources/js/todo/jquery.todo.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/vendor/modernizr-2.8.3.min.js": {
+    "file": "assets/modernizr-2.8.3.min-BzC8Bmak.js",
+    "src": "resources/js/vendor/modernizr-2.8.3.min.js"
+  }
+}

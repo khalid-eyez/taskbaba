@@ -1,0 +1,1 @@
+(function(a){typeof a.fn.knob<"u"&&a(".knob").each(function(){var n=a(this),i=n.attr("data-rel");n.knob({draw:function(){a(this.i).val(this.cv+"%")}}),n.appear(function(){a({value:0}).animate({value:i},{duration:2e3,easing:"swing",step:function(){n.val(Math.ceil(this.value)).trigger("change")}})},{accX:0,accY:-150})})})(jQuery);

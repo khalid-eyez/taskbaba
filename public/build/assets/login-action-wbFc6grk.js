@@ -1,0 +1,1 @@
+(function(t){t("body").on("click","[data-ma-action]",function(i){i.preventDefault();var a=t(this),n=t(this).data("ma-action");switch(n){case"nk-login-switch":var o=a.data("ma-block"),c=a.closest(".nk-block");c.removeClass("toggled"),setTimeout(function(){t(o).addClass("toggled")});break;case"print":window.print();break}})})(jQuery);
