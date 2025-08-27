@@ -13,7 +13,7 @@ use Illuminate\Validation\Rule;
  *
  * @since 1.0.0
  */
-class TaskServicex
+class TaskService
 {
     /**
      * handles the storing of task details in the database
