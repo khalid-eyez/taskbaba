@@ -40,9 +40,9 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
-        "lint": "phpcs --standard=PSR12 app/",
-        "lint-fix": "phpcbf --standard=PSR12 app/",
-        "format": "pint",
+        "lint": "phpcs --standard=phpcs.xml app/",
+        "lint-fix": "phpcbf --standard=phpcs.xml app/",
+        "format": "pint && npm run format",
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],

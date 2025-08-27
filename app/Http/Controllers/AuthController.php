@@ -8,8 +8,24 @@ use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
+/**
+ * Handles authentication and registration of users
+ *
+ * @author khalid <thewinner016@gmail.com>
+ *
+ * @since 1.0.0
+ */
 class AuthController extends Controller
 {
+    /**
+     * handles the login for the registered user
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
+     */
     public function login(Request $request)
     {
         if (auth()->check()) {
@@ -31,6 +47,15 @@ class AuthController extends Controller
         ])->onlyInput('name');
     }
 
+    /**
+     * handles the display of the login form
+     *
+     * @return \Illuminate\Contracts\View\View|\Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
+     */
     public function loginform()
     {
         if (auth()->check()) {
@@ -40,6 +65,15 @@ class AuthController extends Controller
         return view('login');
     }
 
+    /**
+     * handles the registration of the user
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
+     */
     public function register(Request $request)
     {
 
@@ -67,6 +101,15 @@ class AuthController extends Controller
         }
     }
 
+    /**
+     * handle the logging out of the user
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
+     */
     public function logout()
     {
         auth()->logout();

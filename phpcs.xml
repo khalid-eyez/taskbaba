@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="Laravel PSR-12 with PHPDoc">
+    <description>Laravel custom standard based on PSR-12 and PHPDoc.</description>
+
+    <!-- Scan these directories -->
+    <file>app</file>
+    <file>routes</file>
+    <file>database</file>
+    
+    <!-- Exclude vendor and storage -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/storage/*</exclude-pattern>
+
+    <!-- Base standard -->
+    <rule ref="PSR12" />
+
+    <!-- PHPDoc rules -->
+    <rule ref="Squiz.Commenting.ClassComment"/>
+    <rule ref="Squiz.Commenting.FunctionComment"/>
+    <rule ref="Squiz.Commenting.VariableComment"/>
+    <rule ref="PEAR.Commenting.FunctionComment"/>
+</ruleset>

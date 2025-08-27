@@ -8,10 +8,23 @@ use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 
+/**
+ * A controller for handling all the task related routes (requests)
+ *
+ * @author khalid <thewinner016@gmail.com>
+ *
+ * @since 1.0.0
+ */
 class TaskController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * retrieves and displays all the tasks
+     *
+     * @return \Illuminate\Contracts\View\View
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function index()
     {
@@ -21,7 +34,13 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Displays a form for adding a new task
+     *
+     * @return \Illuminate\Contracts\View\View
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function create()
     {
@@ -29,11 +48,18 @@ class TaskController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * stores the added task in the database
+     *
+     * @param  \Illuminate\Http\Request  $request  a request containing new task details
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function store(Request $request)
     {
-         $request->validate([
+        $request->validate([
             'title' => ['required', 'string', 'max:100', 'unique:tasks,title'],
             'description' => ['required', 'string'],
         ], [
@@ -55,7 +81,14 @@ class TaskController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * handles the updating of a task status
+     *
+     * @param  mixed  $id  the id of the task being updated
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function updateStatus($id)
     {
@@ -71,13 +104,31 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * displays a form for updating task details
+     *
+     * @param  \App\Models\Task  $task  the model of the task being updated
+     * @return \Illuminate\Contracts\View\View
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function edit(Task $task)
     {
         return view('taskupdate', compact('task'));
     }
 
+    /**
+     * handling the updating of a task's details
+     *
+     * @param  \Illuminate\Http\Request  $request  a request containing updated task details
+     * @param  \App\Models\Task  $task  the model of the task being updated
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
+     */
     public function update(Request $request, Task $task)
     {
         $request->validate([
@@ -105,7 +156,14 @@ class TaskController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * handling the deleting of a task
+     *
+     * @param  mixed  $id  the id of task being deleted
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * @author khalid <thewinner016@gmail.com>
+     *
+     * @since 1.0.0
      */
     public function destroy($id)
     {
@@ -114,7 +172,7 @@ class TaskController extends Controller
             return response()->json(['error' => 'Task not found'], 404);
         }
 
-        $task->delete(); // Delete the task
+        $task->delete();
 
         return response()->json(['success' => 'Task deleted successfully !']);
     }
